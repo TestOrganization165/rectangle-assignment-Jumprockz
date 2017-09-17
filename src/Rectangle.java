@@ -83,7 +83,7 @@ public class Rectangle {
             int y2 = Math.min(y + height, r.y + r.height);
             return new Rectangle(x1, y1, x2 - x1, y2 - y1); // make rectangle from upper left coordinate and calculated width and height
         } else {
-            return new Rectangle(0, 0, 0, 0);
+            return new Rectangle(0, 0, 0, 0+0);
         }
     }
 
