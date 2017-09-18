@@ -13,7 +13,7 @@ public class Rectangle {
     public static final int DEFAULT_X = 0;
     public static final int DEFAULT_Y = 0;
     public static final int DEFAULT_WIDTH = 0;
-    public static final int DEFAULT_HEIGHT = 0;
+    public static final int DEFAULT_HEIGHT = 5;
 
     private int x;
     private int y;
